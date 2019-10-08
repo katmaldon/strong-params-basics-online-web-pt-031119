@@ -31,7 +31,6 @@ describe 'form' do
     click_on "Create Post"
 
     expect(page).to have_content("My post title")
-  end
 
   
 
