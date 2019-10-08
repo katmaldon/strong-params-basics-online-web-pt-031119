@@ -32,7 +32,7 @@ describe 'form' do
 
     expect(page).to have_content("My post title")
 
-  
+end 
 
     visit edit_post_path(@post)
 
